@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800&display=swap');
 
+.section
+{
+    display: none;
+}
 :root{
     --overlay-color: #303030
 }
@@ -67,7 +71,7 @@
     background-position: center;
 }
 
-.showcase video{
+.showcase img{
     position: absolute;
     top: 0;
     left: 0;
@@ -190,3 +194,7 @@
         font-size: 2px;
     }
 }
+
+
+
+
