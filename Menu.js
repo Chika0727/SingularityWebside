@@ -5,13 +5,11 @@ menuToggle.addEventListener('click', function() {
     showcase.classList.toggle('active')
 })
 
+let user = document.querySelector(".Tabs1");
 
-$("#sideBar li a").click(function(e) {
-    e.preventDefault();
-    var section = $(this).attr("href");
-    console.log(section);
-    $("wind").removeClass("Tabs");
-    $(section).addClass("Tabs");
-    $("#sideBar li a").removeClass("tab-active");
-    $(this).addClass("tab-active");
-})
+function sh() {
+    user.classList.toggle("hide");
+}
+ 
+
+
