@@ -232,5 +232,10 @@
 }
 
 .Tab{
-
+    background-color: #252525;
+    border-size: 3px;
+    border-radius: 15px;
+    padding: 15px;
+    opacity: 80%;
 }
+
