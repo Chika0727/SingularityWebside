@@ -75,6 +75,7 @@
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
+    left: 50px;
 }
 
 .showcase img{
@@ -228,4 +229,8 @@
 
 #Tab4{
     display: none;
+}
+
+.Tab{
+
 }
