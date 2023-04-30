@@ -8,8 +8,48 @@ menuToggle.addEventListener('click', function() {
 let user = document.querySelector(".Tabs1");
 
 function sh() {
-    user.classList.toggle("hide");
+
+    document.getElementById("Home").style.display = "block";
+    document.getElementById("Tab1").style.display = "none";
+    document.getElementById("Tab2").style.display = "none";
+    document.getElementById("Tab3").style.display = "none";
+    document.getElementById("Tab4").style.display = "none";
 }
+
  
+let user1 = document.querySelector(".Tabs2");
+
+function sh1() {
+    document.getElementById("Home").style.display = "none";
+    document.getElementById("Tab1").style.display = "block";
+    document.getElementById("Tab2").style.display = "none";
+    document.getElementById("Tab3").style.display = "none";
+    document.getElementById("Tab4").style.display = "none";
+
+}
+
+function sh2(){
+        document.getElementById("Home").style.display = "none";
+        document.getElementById("Tab1").style.display = "none";
+        document.getElementById("Tab2").style.display = "block";
+        document.getElementById("Tab3").style.display = "none";
+        document.getElementById("Tab4").style.display = "none";
+}
+
+function sh3(){
+            document.getElementById("Home").style.display = "none";
+            document.getElementById("Tab1").style.display = "none";
+            document.getElementById("Tab2").style.display = "none";
+            document.getElementById("Tab3").style.display = "block";
+            document.getElementById("Tab4").style.display = "none";
+}
+
+function sh4(){
+            document.getElementById("Home").style.display = "none";
+            document.getElementById("Tab1").style.display = "none";
+            document.getElementById("Tab2").style.display = "none";
+            document.getElementById("Tab3").style.display = "none";
+            document.getElementById("Tab4").style.display = "block";
+}
 
 
