@@ -31,7 +31,7 @@ function sh1() {
 function sh2(){
         document.getElementById("Home").style.display = "none";
         document.getElementById("Tab1").style.display = "none";
-        document.getElementById("Tab2").style.display = "block";
+        document.getElementById("Tab2").style.display = "inline-block";
         document.getElementById("Tab3").style.display = "none";
         document.getElementById("Tab4").style.display = "none";
 }
