@@ -5,7 +5,7 @@ menuToggle.addEventListener('click', function() {
     showcase.classList.toggle('active')
 })
 
-let user = document.querySelector(".Tabs1");
+//let user = document.querySelector(".Tabs1");
 
 function sh() {
 
@@ -17,7 +17,7 @@ function sh() {
 }
 
  
-let user1 = document.querySelector(".Tabs2");
+
 
 function sh1() {
     document.getElementById("Home").style.display = "none";
